@@ -1,0 +1,45 @@
+===== qFit version: 3.1.3.dev1+g61c6a63 =====
+
+/Users/bulatfaezov/App/Anaconda/anaconda3/bin/qfit_protein composite_omit_map.mtz -l 2FOFCWT,PH2FOFCWT 1k3a.pdb -p 10
+
+===== qFit parameters: =====
+
+Map: composite_omit_map.mtz
+Structure: 1k3a.pdb
+Label: 2FOFCWT,PH2FOFCWT
+Resolution: None
+Resolution_min: None
+Scattering: xray
+Randomize_b: False
+Omit: False
+Scale: True
+Density_cutoff: 0.3
+Density_cutoff_value: -1
+Subtract: True
+Padding: 8.0
+Nowaters: False
+Sample_backbone: True
+Sample_backbone_step: 0.1
+Sample_backbone_amplitude: 0.3
+Sample_angle: True
+Sample_angle_step: 3.75
+Sample_angle_range: 7.5
+Dofs_per_iteration: 2
+Dihedral_stepsize: 10
+Rotamer_neighborhood: 60
+Remove_conformers_below_cutoff: False
+Clash_scaling_factor: 0.75
+External_clash: False
+Bulk_solvent_level: 0.3
+Cardinality: 5
+Threshold: 0.2
+Hydro: False
+Rmsd_cutoff: 0.01
+Bic_threshold: True
+Nproc: 10
+Fragment_length: 4
+Seg_bic_threshold: True
+Directory: /Users/bulatfaezov/pdb/1k3a
+Debug: False
+Verbose: False
+Pdb: None
